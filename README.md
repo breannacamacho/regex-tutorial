@@ -33,7 +33,6 @@ Contributions to this tutorial are welcome! If you find any errors or have sugge
 ## Contact Information
 For more information or questions about this tutorial, contact the author:
 
-Breanna Camacho
 Email: breannacamacho1@gmail.com
 GitHub: https://github.com/breannacamacho
 
