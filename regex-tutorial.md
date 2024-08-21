@@ -22,14 +22,14 @@ The regex we'll be examining is designed to match HTML tags, both self-closing a
 ## Regex Components
 
 ### Anchors
-Anchors are used to ensure that the pattern matches the start (^) and end ($) of the string.
+Anchors are used to ensure that the pattern matches the start (`^`) and end (`$`) of the string.
 
-Start Anchor (^): Ensures the match occurs at the beginning of the string.
+Start Anchor (`^`): Ensures the match occurs at the beginning of the string.
 
-End Anchor ($): Ensures the match occurs at the end of the string.
+End Anchor (`$`): Ensures the match occurs at the end of the string.
 
 Example:
-For the string <div>Content</div>, the anchors ensure that the entire string matches the pattern from start to finish.
+For the string `<div>Content</div>`, the anchors ensure that the entire string matches the pattern from start to finish.
 
 ### Quantifiers
 Quantifiers specify how many times a character or group should be matched.
