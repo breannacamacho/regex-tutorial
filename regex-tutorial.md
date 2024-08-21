@@ -34,57 +34,57 @@ For the string `<div>Content</div>`, the anchors ensure that the entire string m
 ### Quantifiers
 Quantifiers specify how many times a character or group should be matched.
 
-Asterisk (*): Matches zero or more occurrences of the preceding element.
+Asterisk (`*`): Matches zero or more occurrences of the preceding element.
 
 Example:
-In ([^<]+)*, the * quantifier allows for matching zero or more characters that are not <.
+In `([^<]+)*`, the `*` quantifier allows for matching zero or more characters that are not `<`.
 
 ### Grouping Constructs
-Grouping is achieved using parentheses () to create capturing groups.
+Grouping is achieved using parentheses `()` to create capturing groups.
 
-Parentheses (()): Group parts of the regex pattern to apply quantifiers or capture matched content.
+Parentheses (`()`): Group parts of the regex pattern to apply quantifiers or capture matched content.
 
 Example:
-In ([a-z]+), the parentheses capture the tag name like div or span.
+In `([a-z]+)`, the parentheses capture the tag name like `div` or `span`.
 
 ### Bracket Expressions
-Bracket expressions, denoted by square brackets [], specify a set of characters to match.e.
+Bracket expressions, denoted by square brackets `[]`, specify a set of characters to match.e.
 
-Square Brackets ([]): Match any one character from the set inside the brackets.
+Square Brackets (`[]`): Match any one character from the set inside the brackets.
 
 Example:
-In [a-z], it matches any lowercase letter from a to z.
+In `[a-z]`, it matches any lowercase letter from `a` to `z`.
 
 ### Character Classes
 Character classes define sets of characters to match and can include predefined sets.
 
-Backreference (\1): Matches the same text as the first capturing group.
+Backreference (`\1`): Matches the same text as the first capturing group.
 
 Example:
-In <\/\1>, the \1 backreference ensures that the closing tag matches the opening tag captured by the first group.
+In `<\/\1>`, the `\1` backreference ensures that the closing tag matches the opening tag captured by the first group.
 
 
 ### The OR Operator
-The OR operator | allows for matching one pattern or another.
+The OR operator `|` allows for matching one pattern or another.
 
-Pipe (|): Used to separate alternative patterns.
+Pipe (`|`): Used to separate alternative patterns.
 
 Example:
-In (?:>(.*)<\/\1>|\s+\/>), the | separates matching a tag with content and a self-closing tag.
+In `(?:>(.*)<\/\1>|\s+\/>)`, the `|` separates matching a tag with content and a self-closing tag.
 
 ### Flags
 Flags modify the behavior of the regex engine but are not used in this regex.
 
 Example:
-Flags like i for case-insensitive matching are not used in the HTML tag regex.
+Flags like `i` for case-insensitive matching are not used in the HTML tag regex.
 
 ### Character Escapes
 Character escapes are used to match special characters that have a specific meaning in regex.
 
-Escape (\): Matches characters like spaces and forward slashes.
+Escape (`\`): Matches characters like spaces and forward slashes.
 
 Example:
-In \/, the \/ escape matches a forward slash /.
+In `\/`, the `\/` escape matches a forward slash `/`.
 
 ## Author
 
