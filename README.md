@@ -9,7 +9,6 @@ This tutorial explains how to use regular expressions (regex) to match HTML tags
 - [Installation Instructions](#installation-instructions)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Code Sources and Acknowledgements](#code-sources-and-acknowledgements)
 - [Contact Information](#contact-information)
 
